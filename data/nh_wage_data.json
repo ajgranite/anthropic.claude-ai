@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "source": "U.S. Bureau of Labor Statistics & NH Employment Security",
+    "last_updated": "2025",
+    "scraped_date": "2026-01-22"
+  },
+  "statewide_summary": {
+    "average_hourly_wage": 33.08,
+    "currency": "USD",
+    "period": "June 2025",
+    "total_employment": 683160,
+    "minimum_wage": 7.25,
+    "minimum_wage_note": "Follows federal minimum wage, unchanged since 2009"
+  },
+  "county_wages_q1_2025": {
+    "large_counties": {
+      "hillsborough": {
+        "average_weekly_wage": 1652,
+        "employment": 199300,
+        "above_national_average": true
+      },
+      "rockingham": {
+        "average_weekly_wage": 1538,
+        "employment": null,
+        "above_national_average": false
+      },
+      "merrimack": {
+        "average_weekly_wage": 1319,
+        "employment": null,
+        "above_national_average": false
+      }
+    },
+    "small_counties": {
+      "grafton": {
+        "average_weekly_wage": 1512,
+        "note": "Highest among smaller counties"
+      },
+      "carroll": {
+        "average_weekly_wage": 959,
+        "note": "Lowest in the state"
+      },
+      "belknap": {
+        "average_weekly_wage": null,
+        "above_national_average": false
+      },
+      "cheshire": {
+        "average_weekly_wage": null,
+        "above_national_average": false
+      },
+      "coos": {
+        "average_weekly_wage": null,
+        "above_national_average": false
+      },
+      "strafford": {
+        "average_weekly_wage": null,
+        "above_national_average": false
+      },
+      "sullivan": {
+        "average_weekly_wage": null,
+        "above_national_average": false
+      }
+    },
+    "national_average_weekly_wage": 1589
+  },
+  "wages_by_occupation": {
+    "office_and_administrative_support": {
+      "employment": 88230,
+      "share_of_total_jobs_percent": 12,
+      "mean_hourly_wage": 24.76,
+      "note": "Largest occupation group"
+    },
+    "food_preparation_and_serving": {
+      "employment": 58086,
+      "share_of_total_jobs_percent": 8.5,
+      "mean_hourly_wage": 18.28,
+      "note": "Lowest mean wage, third largest group"
+    }
+  },
+  "year_over_year_changes": {
+    "period": "March 2024 to March 2025",
+    "employment_trend": "Declined in three largest counties",
+    "wage_trend": "All three large counties reported average weekly wage gains"
+  },
+  "regional_comparison": {
+    "new_england_minimum_wages_2024": {
+      "other_states_minimum": 13.67,
+      "new_hampshire": 7.25,
+      "note": "NH has lowest minimum wage in New England"
+    }
+  },
+  "data_sources": [
+    {
+      "name": "BLS County Employment and Wages",
+      "url": "https://www.bls.gov/regions/northeast/news-release/countyemploymentandwages_newhampshire.htm"
+    },
+    {
+      "name": "NH Employment Security ELMI",
+      "url": "https://www.nhes.nh.gov/elmi/products/oes-prod.htm"
+    },
+    {
+      "name": "BLS Economy at a Glance - NH",
+      "url": "https://www.bls.gov/eag/eag.nh.htm"
+    },
+    {
+      "name": "NH Employment Security Wages PDF",
+      "url": "https://www.nhes.nh.gov/elmi/products/documents/wages-intro.pdf"
+    }
+  ]
+}

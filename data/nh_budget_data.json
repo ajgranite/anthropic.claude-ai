@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "source": "NH Department of Administrative Services, NH Fiscal Policy Institute, NASBO",
+    "fiscal_years": ["2026", "2027"],
+    "scraped_date": "2026-01-22"
+  },
+  "budget_overview": {
+    "total_biennium_budget": {
+      "house_proposal": 15400000000,
+      "governor_proposal_difference": 500000000,
+      "note": "House version ~$15.4B, roughly $500M below Governor Ayotte's recommendation"
+    },
+    "general_fund_change": {
+      "amount": -150000000,
+      "note": "Governor's proposal spends $150M less in General Funds vs prior budget"
+    }
+  },
+  "revenue_projections": {
+    "fy2026": {
+      "business_taxes": 1209200000,
+      "meals_and_rentals_tax": 353200000,
+      "real_estate_transfer_tax": 214000000
+    },
+    "fy2027": {
+      "business_taxes": 1245500000,
+      "meals_and_rentals_tax": 370900000,
+      "real_estate_transfer_tax": 231100000
+    }
+  },
+  "revenue_changes": {
+    "trends": "Revenue decreases due to slower national corporate profit growth",
+    "policy_changes": [
+      {
+        "change": "Elimination of Interest and Dividends Tax",
+        "effective_year": 2025,
+        "impact": "Revenue reduction"
+      }
+    ]
+  },
+  "appropriations_by_category": {
+    "health_and_social_services": {
+      "department": "DHHS",
+      "biennium_total": 7100000000,
+      "prior_biennium": 6600000000,
+      "percent_increase": 7.6,
+      "note": "Largest category"
+    },
+    "education": {
+      "note": "Second largest category"
+    },
+    "justice_and_public_protection": {
+      "note": "Third largest category"
+    },
+    "transportation": {
+      "note": "Fourth largest category"
+    },
+    "resource_protection_and_development": {
+      "note": "Fifth largest category"
+    },
+    "general_government": {
+      "note": "Sixth largest category"
+    }
+  },
+  "category_shares": {
+    "health_and_social_services_plus_education": {
+      "share_of_total": "approximately two-thirds",
+      "note": "Combined share of total state budget appropriations"
+    }
+  },
+  "federal_funding": {
+    "biennium_total": 5230000000,
+    "share_of_total_budget": "nearly one-third",
+    "note": "Typical level of federal fund reliance for NH"
+  },
+  "governor": {
+    "name": "Kelly Ayotte",
+    "budget_address_date": "2025",
+    "theme": "Keep New Hampshire on the path to greater prosperity"
+  },
+  "legislative_timeline": {
+    "house_passage_date": "April 10, 2025",
+    "next_step": "State Senate"
+  },
+  "data_sources": [
+    {
+      "name": "Governor's Executive Budget Summary FY 2026-2027",
+      "url": "https://www.das.nh.gov/budget/Budget2026-2027/Governor_Executive_Summary_FY_2026-2027.pdf"
+    },
+    {
+      "name": "NH DAS Budget Office",
+      "url": "https://www.das.nh.gov/budget/2026-2027GovBudget.aspx"
+    },
+    {
+      "name": "NHFPI State Budget Analysis FY 2026-2027",
+      "url": "https://nhfpi.org/resource/the-state-budget-for-fiscal-years-2026-and-2027/"
+    },
+    {
+      "name": "Governor's Budget Address",
+      "url": "https://www.governor.nh.gov/news/2025-budget-address"
+    },
+    {
+      "name": "NASBO NH Budget",
+      "url": "https://www.nasbo.org/mainsite/resources/proposed-enacted-budgets/newhampshire-budget"
+    }
+  ]
+}
