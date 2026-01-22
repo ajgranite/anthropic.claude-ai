@@ -7,6 +7,7 @@ Data collection for New Hampshire wage and budget statistics.
 - `data/nh_wage_data.json` - NH employment and wage statistics
 - `data/nh_budget_data.json` - NH state budget data for FY 2026-2027
 - `data/nh_state_employee_wage_increase_arguments.md` - Arguments supporting wage/COLA increases for NH state employees
+- `data/nh_state_employee_purchasing_power_analysis.md` - Purchasing power loss analysis (2023-2026)
 
 ## NH Wage Data Summary
 
