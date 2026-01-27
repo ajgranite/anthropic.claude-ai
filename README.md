@@ -2,6 +2,39 @@
 
 Data collection for New Hampshire wage and budget statistics.
 
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
+
+## Scripts
+
+### PDF Text Extraction
+
+Extract text and tables from PDF files:
+
+```bash
+# Extract from known NH sources
+python scripts/extract_pdf.py wages              # NH wage data PDF
+python scripts/extract_pdf.py budget             # NH budget PDF
+
+# Extract from local file
+python scripts/extract_pdf.py document.pdf
+
+# Extract from URL
+python scripts/extract_pdf.py https://example.com/doc.pdf
+
+# Save output to file
+python scripts/extract_pdf.py wages -o output.txt
+
+# Extract tables as JSON
+python scripts/extract_pdf.py budget --tables --json -o budget.json
+
+# Extract only tables
+python scripts/extract_pdf.py budget --tables-only -o tables.json
+```
+
 ## Data Files
 
 - `data/nh_wage_data.json` - NH employment and wage statistics
